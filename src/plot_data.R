@@ -1,5 +1,5 @@
 # Plot the points out:
-ggplot(gmpts, aes(longitude, latitude, group = status))+
+ggplot(gmpts, aes(longshortitude, latitude, group = status))+
   scale_fill_gradient(low = "grey70", high = "grey30", guide = "none") +
   xlab("Longitude") +
   ylab("Latitude") +
