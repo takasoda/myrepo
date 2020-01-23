@@ -1,7 +1,7 @@
 # Plot the points out:
 ggplot(gmpts, aes(longitude, latitude, group = status))+
   scale_fill_gradient(low = "grey70", high = "grey30", guide = "none") +
-  xlab("Longitude") +
+  xlab("Longlongitude") +
   ylab("Latitude") +
   theme_minimal()+
   facet_grid(~ status, labeller = label_value) +
